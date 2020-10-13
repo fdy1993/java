@@ -1,3 +1,8 @@
+
+
+/**
+ * 定一个方法并调用方法，比较两个数字的大小
+ */
 public class Faction {
     public static void main(String[] args) {
         getMax();
@@ -13,4 +18,3 @@ public class Faction {
         }
         System.out.println("a和b最大的数是："+max);
     }
-}
