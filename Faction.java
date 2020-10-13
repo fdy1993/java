@@ -18,3 +18,4 @@ public class Faction {
         }
         System.out.println("a和b最大的数是："+max);
     }
+}
