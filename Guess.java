@@ -16,7 +16,7 @@ public static void main(String[] args) {
         } else if (guessnum>randomnum) {
             System.out.println("你猜的数字" +guessnum+ "大了");
         } else {
-            System.out.println("恭喜你猜对了！");
+            System.out.println("恭喜你猜对了！你才的数字是：" +guessnum);
             break;
         }
     }
