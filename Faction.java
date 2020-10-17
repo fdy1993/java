@@ -8,7 +8,7 @@ public class Faction {
         getMax();
     }
     public static void getMax() {
-        int a=10;
+        int a=30;
         int b=26;
         int max;
         if (a>b) {
