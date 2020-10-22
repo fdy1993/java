@@ -9,9 +9,16 @@ public class MethodTest {
     //     }
     // }
     public static void printArr(int[] arr) {
+        System.out.print("[");
         for (int x=0; x<arr.length; x++) {
-            System.out.println(arr[x]);
+            if (x==arr.length-1) {
+                System.out.print(arr[x]);
+            } else {
+                System.out.print(arr[x]+", ");
+            }
+            
         }
+        System.out.print("]");
     }
 
 }
